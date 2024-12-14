@@ -1,0 +1,10 @@
+fastapi
+pymongo
+python-dotenv
+uvicorn
+pytz
+datetime
+typing
+logging
+PyPDF2
+python-multipart
