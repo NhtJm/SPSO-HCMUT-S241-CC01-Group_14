@@ -40,12 +40,13 @@ Ensure you have the following installed on your system:
    cd <repository-name>
 
 2. **Switch to the Backend Branch (if applicable)**
-  ```bash
-  git checkout <branch-name>
+   ```bash
+   git checkout <branch-name>
 
 3. **Navigate to the Backend Directory**
-  cd Backend
-
+   ```bash
+   cd Backend
+   
 4. **Set Up Environment Variables:**
     Create a .env file in the Backend directory with the following content: 
     ```bash
