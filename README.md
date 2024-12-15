@@ -46,14 +46,17 @@ Ensure you have the following installed on your system:
 3. **Navigate to this Backend Directory**
    ```bash
    cd SPSO-HCMUT-S241-CC01-Group_14
-   
-4. **Set Up Environment Variables:**
+4. **Install Required Python Packages:**
+   ```bash
+   pip install -r requirements.txt
+
+5. **Set Up Environment Variables:**
     Create a .env file in the Backend directory with the following content: 
     ```bash
     MONGO_URI=<your-mongo-uri>
     DATABASE_NAME=<your-database-name>
 
-5. **Run the FastAPI Server:**
+6. **Run the FastAPI Server:**
     The backend server will be available at: http://localhost:8000 
     ```bash
     uvicorn main:app --reload
