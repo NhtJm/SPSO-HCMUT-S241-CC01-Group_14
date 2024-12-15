@@ -43,9 +43,9 @@ Ensure you have the following installed on your system:
    ```bash
    git checkout <branch-name>
 
-3. **Navigate to the Backend Directory**
+3. **Navigate to this Backend Directory**
    ```bash
-   cd Backend
+   cd SPSO-HCMUT-S241-CC01-Group_14
    
 4. **Set Up Environment Variables:**
     Create a .env file in the Backend directory with the following content: 
